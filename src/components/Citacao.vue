@@ -1,12 +1,14 @@
 <template>
     <div class="citacao">
-        {{ texto }}
+        <!--{{ texto }} -->
+        <!-- A tag slot renderiza elementos html no componente -->
+        <slot></slot>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['texto']
+    // props: ['texto']
 }
 </script>
 

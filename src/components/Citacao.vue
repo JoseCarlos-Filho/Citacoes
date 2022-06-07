@@ -2,7 +2,10 @@
     <div class="citacao">
         <!--{{ texto }} -->
         <!-- A tag slot renderiza elementos html no componente -->
-        <slot></slot>
+        <!-- utilizando slots nomeados -->
+        <slot name="fonte"></slot>
+        <slot name="texto"></slot>
+        <slot name="autor"></slot>
     </div>
 </template>
 
@@ -23,14 +26,14 @@ export default {
     }
 
     h1 {
-        text-shadow: 1px 1px 5px white;
+        text-shadow: 1px 1px 3px white;
     }
 
     p {
-        text-shadow: 1px 1px 5px white;
+        text-shadow: 1px 1px 3px white;
     }
 
     h6 {
-        text-shadow: 1px 1px 5px white;
+        text-shadow: 1px 1px 3px white;
     }
 </style>

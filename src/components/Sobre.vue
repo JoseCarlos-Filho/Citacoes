@@ -13,6 +13,7 @@ export default {
 
 <style scoped>
     div {
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;

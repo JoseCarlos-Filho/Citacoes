@@ -1,7 +1,24 @@
 <template>
 	<div id="app">
-		<Citacoes />
-		<Sobre />
+		<!--<Citacoes />
+		<Sobre /> -->
+		<!-- Utilização de componente dinâmico -->
+		<span>
+			<button @click="dinamicComponente = 'Citacoes'">Citações</button>
+			<button @click="dinamicComponente = 'Sobre'">Sobre</button>
+		</span>
+		<!-- 
+			Tag <keep-alive> não destroi o componente quando vocês
+			alterna entre o botão sobre e citações ou seja voce retorna
+			na mensagem onde parou de navegar entre os botões de navegação.
+			Sem a tag <keep-alive> voccê sempre retona na navegação com
+			texto padrão 
+		-->
+		<keep-alive>
+			<!-- Tag component é padrão do Vue.JS -->
+			<component :is="dinamicComponente" />
+		</keep-alive>
+
 	</div>
 </template>
 
@@ -10,7 +27,12 @@ import Citacoes from './components/Citacoes'
 import Sobre from './components/Sobre'
 
 export default {
-	components: { Citacoes, Sobre }
+	components: { Citacoes, Sobre },
+	data() {
+		return {
+			dinamicComponente: 'Citacoes'
+		}
+	}
 }
 </script>
 

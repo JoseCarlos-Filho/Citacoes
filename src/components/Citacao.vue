@@ -11,22 +11,22 @@
 
 <script>
 export default {
-    created() {
-        // eslint-disable-next-line no-console
-        console.log("Created");
-    },
-    destoryed() {
-        // eslint-disable-next-line no-console
-        console.log("Destoryed");
-    },
-    activated() {
-        // eslint-disable-next-line no-console
-        console.log("Activated");
-    },
-    deactivated() {
-        // eslint-disable-next-line no-console
-        console.log("Deactivated");
-    }
+    // created() {
+    //     // eslint-disable-next-line no-console
+    //     console.log("Created");
+    // },
+    // destoryed() {
+    //     // eslint-disable-next-line no-console
+    //     console.log("Destoryed");
+    // },
+    // activated() {
+    //     // eslint-disable-next-line no-console
+    //     console.log("Activated");
+    // },
+    // deactivated() {
+    //     // eslint-disable-next-line no-console
+    //     console.log("Deactivated");
+    // }
 
     // props: ['texto']
 }

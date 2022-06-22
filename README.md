@@ -18,25 +18,27 @@
 
 ## Resumo
 
-Aplicação que consome API de Blog utilizando Fetch API de forma dinâmica.
+Aplicação que utiliza componentes avançados do Vue.JS mostrando conteudo de forma dinâmica escondendo conteudo entre <divs>.
 
 ## Descrição
 
-Aplicação utilizando Fetch API desenvolvido em HTML5, CSS3 e JavaScript
+Aplicação desenvolvida em Vue.JS, HTML5, CSS3, JavaScript utilizando componentes avançados como a tag 
+<slot> e slot nomeados ex: "<h6 slot="fonte">{{ citacoes[indice].fonte }}</h6>" .
 
 ## O que aprendeu
 
-Inserir conteudo em um bloco de forma dinamica utilizando Fetch API. API de consumo teve base em um blog
+Manipular conteudo entre componentes através da tag <slot> passando este conteudos através de html.
 
 ## Construido com
 
+Framework Vue.JS
 HTML5
 CSS3
 JavaScript
 
 ## Autor
 
-- Copyright (c): [José Carlos Rodrigues Filho](https://github.com/JoseCarlos-Filho/Blog_Post_Coments)
+- Copyright (c): [José Carlos Rodrigues Filho](https://github.com/JoseCarlos-Filho/Citacoes)
 # Como-utilizar
 
 ## Project setup

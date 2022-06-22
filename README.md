@@ -1,6 +1,6 @@
-# Projeto Blog Post Comments
+# Projeto Citações
 
-![Projeto Blog Post Comments](/assets/Desktop-page.png)
+![Projeto Blog Post Comments](/src/assets/Desktop-image.png)
 
 ## Conteúdo
 
@@ -14,7 +14,7 @@
 
 ## Deploy
 
-- deploy: [Aplicativo Blog Post Comments](https://jose-carlos-blog-posts-information.netlify.app/)
+- deploy: [Aplicativo Citações](https://jose-carlos-citacoes-componentes-avancados.netlify.app/)
 
 ## Resumo
 
